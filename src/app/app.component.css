@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  opacity: 0.95;
+}
+
+h1 {
+  text-align: center;
+}
+
+.list-inline {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.receta{
+    background: #000000; 
+	border: solid #BDBDBD 2px; 
+	opacity: 0.95; 
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity= 80); /* // for IE8 */
+	filter: alpha(opacity= 80); /* //for IE5-7 */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.daleAlBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
